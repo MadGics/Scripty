@@ -1,5 +1,0 @@
-function execute()
-       loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/Uni.V")()
-end
-
-loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/BloxF")()
