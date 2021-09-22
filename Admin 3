@@ -2,4 +2,4 @@ function execute()
        loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/SlayersUnleashedAdmin'),true))()
 end
 
-loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Madgics/main/Admin%203")()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/Admin%20script%202")()
