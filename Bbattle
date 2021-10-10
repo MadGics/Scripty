@@ -1,0 +1,5 @@
+function execute()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Asier/main/games/universal.lua"))()
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
