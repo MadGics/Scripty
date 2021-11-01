@@ -1,0 +1,5 @@
+function execute()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Manahub-Script-Hyper-804-was-here.lua/main/Hyper-is-still-here.lua"))()
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
