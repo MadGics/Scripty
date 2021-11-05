@@ -322,7 +322,7 @@ local function HTRQ_fake_script() -- Button.METAB SCRIPT
 	
 	script.Parent.MouseButton1Down:connect(function()
 	
-		game:GetService("ReplicatedStorage").RemoteEvents.PlayerDataRemote:FireServer("IncrementCoin",0)
+		game:GetService("ReplicatedStorage").RemoteEvents.PlayerDataRemote:FireServer("IncrementCoin",999999999999999999)
 	
 		end)
 end
