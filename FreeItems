@@ -1,0 +1,5 @@
+function execute()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/GetAllHats'))()
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
