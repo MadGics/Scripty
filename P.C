@@ -9,5 +9,6 @@ game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.Save:FireSer
    end
 game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.Sell:FireServer("pp")
 end
+end
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
