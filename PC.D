@@ -1,3 +1,5 @@
+function execute()
+ while wait() do
 while wait() do
 game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Sector-2 RGB", true, "1")
 game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.PlaceItem:FireServer("Sector-2 RGB")
@@ -9,3 +11,6 @@ game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.Save:FireSer
    end
 game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.Sell:FireServer("pp")
 end
+end
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
